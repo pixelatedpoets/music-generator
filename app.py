@@ -24,7 +24,7 @@ def generate():
     model.set_generation_params(duration=durationValue)  # Set the duration before generating
 
     # Generate the audio
-    wav = model.generate_unconditional(1)
+    wav = model.generate([promptText])
 
     # Convert the tensor to bytes
     buffer = BytesIO()
@@ -37,4 +37,4 @@ def generate():
     return jsonify({"audio": base64_encoded_audio})
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0')
+    app.run(debug=True)
