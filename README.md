@@ -1,7 +1,6 @@
 # Pixelated Poets Music Generator
 
-Frontend and Backend to generate music with Facebook's MusicGen model
-Check us out on https://www.youtube.com/@PixelatedPoets/
+Frontend and Backend to generate music with Facebook's MusicGen model. Check us out on https://www.youtube.com/@PixelatedPoets/
 
 ## Installation
 
